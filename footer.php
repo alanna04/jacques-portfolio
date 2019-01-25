@@ -14,7 +14,7 @@
         </a>
       </div>
       <h5>Jacques St. Pierre</h5>
-      <h6>Web Developer</h6>
+      <h6>Art Director & Visionary Leader</h6>
     </footer>
 
     <script src="<?php echo get_bloginfo('template_directory'); ?>/js/app.js"></script>

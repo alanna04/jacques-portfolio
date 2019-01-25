@@ -4,7 +4,7 @@
 #top .container{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 80px 0;
+  padding: 50px 0;
   align-items: center;
 }
 #top .info{
@@ -22,11 +22,12 @@
 }
 #top .info h1{
   position: relative;
-  font-size: 2rem;
+  font-size: 5rem;
   text-transform: uppercase;
   font-weight: 700;
   color: #16171b;
-  margin-bottom: 2rem;
+  margin-top: 1%;
+  margin-bottom: 4rem;
   z-index: 1;
 }
 #top .info p{
@@ -35,6 +36,16 @@
   text-transform: capitalize;
   margin-bottom: 4rem;
   z-index: 1;
+  font-size: 2rem;
+}
+#top .info .f2{
+  position: relative;
+  color: #16171b;
+  text-transform: capitalize;
+  margin-bottom: 4rem;
+  z-index: 1;
+  font-weight: 400;
+  font-size: 1.7rem;
 }
 #top .info a{
   position: relative;
@@ -51,7 +62,7 @@
 #top .img{
 }
 #top .img .background-img{
-  background: url('../../img/user-img.jpg');
+  background: url('../../img/jacques.jpg');
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -59,6 +70,7 @@
   max-width: 500px;
   height: 800px;
   margin: 0 auto;
+  border: black 20px solid;
 }
 /* Tablets */
 @media only screen and (max-width: 960px){

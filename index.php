@@ -3,8 +3,9 @@
       <div class="container">
         <div class="info">
           <div class="blue-square"></div>
-          <h1>Jacques St. Pierre</h1>
-          <p>Web Developer</p>
+          <h1>Jacques <br>St. Pierre</h1>
+          <p>Art Director & Visionary Leader</p>
+          <p class="f2">Film, Digital Design, Installation, Mixed Media </p>
           <a href="#">Latest Works</a>
         </div>
         <div class="img">
