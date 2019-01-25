@@ -1,0 +1,10 @@
+#page-template{
+	padding: 80px 0px;
+}
+
+#page-template .container{
+	padding: 0px 15px;
+}
+body{
+	color: green;
+}
