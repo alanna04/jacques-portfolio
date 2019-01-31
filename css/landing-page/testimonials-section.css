@@ -13,7 +13,7 @@
 }
 
 #testimonials-section .title .square{
-  background: #ffeded;
+  background: #dbf1ff;
   width: 150px;
   height: 150px;
   position: absolute;
@@ -138,6 +138,7 @@
   transform: translate3d(0, 0,0);
   opacity: 1;
 }
+
 /* Tablets */
 @media only screen and (max-width: 960px){
   #testimonials-section .testimonials-container {

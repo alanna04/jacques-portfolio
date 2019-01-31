@@ -3,9 +3,9 @@
 }
 
 #experience-section .large-title{
-  color: #c6e4ff;
+  color: #16171b;
   font-weight: 900;
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   text-align: center;
   text-transform: uppercase;
   position: relative;
@@ -18,7 +18,7 @@
   grid-gap: 20px;
 }
 #experience-section .experience-container .large-icons .square{
-  border: 30px solid #52b8ff;
+  border: 30px solid #000000;
   padding: 5px;
   display: inline-block;
   position: relative;
@@ -27,9 +27,9 @@
 #experience-section .experience-container .large-icons .square .blue-box{
   width: 150px;
   height: 150px;
-  background: #52b8ff;
+  background: #ffffff;
   padding: 5px;
-  color: white;
+  color: black;
   text-transform: uppercase;
   font-weight: 600;
   display: flex;
@@ -39,7 +39,7 @@
   letter-spacing: 3px;
 }
 #experience-section .experience-container .large-icons .circle{
-  border: 30px solid #ffc853;
+  border: 30px solid #16171b;
   padding: 5px;
   display: inline-block;
   border-radius: 50%;
@@ -48,7 +48,7 @@
   left: 50px;
 }
 #experience-section .experience-container .large-icons .white-box{
-  color: #ffc853;
+  color: #000000;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,7 +65,7 @@
   height: 0;
   border-style: solid;
   border-width: 0 150px 230px 150px;
-  border-color: transparent transparent #ff5253 transparent;
+  border-color: transparent transparent #000000 transparent;
   position: relative;
 }
 #experience-section .experience-container .large-icons .triangle .triangle-box{
@@ -81,7 +81,7 @@
   font-size: 1.1rem;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: #ff5253;
+  color: #000000;
 }
 #experience-section .experience-container .large-icons .triangle .triangle-box .text{
   position: relative;

@@ -1,5 +1,6 @@
 #portfolio-section{
   padding: 80px 15px;
+  background: #f9fafc;
 }
 #portfolio-section .title{
   position: relative;
@@ -11,7 +12,7 @@
   margin: 0 auto;
 }
 #portfolio-section .title .square{
-  background: #ffeded;
+  background: #dbf1ff;
   width: 150px;
   height: 150px;
   position: absolute;

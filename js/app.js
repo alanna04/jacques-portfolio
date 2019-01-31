@@ -127,6 +127,6 @@ axios.get("wp-json/wp/v2/testimonials")
     </div>
     `
 
-    render(appTemplate(postData), document.getElementById("testimonials-app"))
+   render(appTemplate(postData), document.getElementById("testimonials-app"))
   }
 

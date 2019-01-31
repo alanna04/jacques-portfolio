@@ -6,17 +6,17 @@
           <h1>Jacques <br>St. Pierre</h1>
           <p>Art Director & Visionary Leader</p>
           <p class="f2">Film, Digital Design, Installation, Mixed Media </p>
-          <a href="#">Latest Works</a>
+          <a href="#portfolio-section">Latest Works</a>
         </div>
         <div class="img">
           <div class="background-img">
+
             <?php
             $mypod = pods('service');
             $mypod->find('name ASC');
             ?>
 
           <?php while ( $mypod->fetch() ) : ?>
-            <h1></h1>
           <?php endwhile; ?>
           </div>
         </div>
@@ -125,17 +125,17 @@
           <div class="large-icons">
             <div class="square">
               <div class="blue-box">
-                Experience
+                Achieve
               </div>
             </div>
             <div class="circle">
               <div class="white-box">
-                AWARDS
+                Practice
               </div>
             </div>
             <div class="triangle">
               <div class="triangle-box">
-                <div class="text">Work</div>
+                <div class="text">Learn</div>
               </div>
             </div>
           </div>
@@ -200,7 +200,9 @@
           <div class="square"></div>
           <h1>Testimonials</h1>
         </div>
-        <div id="testimonials-app"></div>
+        <div id="testimonials-app">
+          
       </div>
     </section>
+
 <?php get_footer(); ?>

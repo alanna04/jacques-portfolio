@@ -1,5 +1,10 @@
 #services-section{
   padding: 80px 15px;
+  background: url('../../img/art44.jpg');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
 }
 #services-section .title{
   position: relative;
@@ -9,6 +14,7 @@
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+
 }
 #services-section .title .circle{
   background: #eef9ff;
@@ -35,7 +41,9 @@
 }
 
 #services-section .services-container .box{
-  background: rgba(255,255,255, 0);
+  /*background: rgba(255,255,255, 0);*/
+  background: #ffffff;
+  border: 1px solid black;
   padding: 40px;
   transition: all .4s ease-in-out;
   cursor: pointer;
@@ -67,13 +75,13 @@
 }
 
 #services-section .services-container .box.blue{
-  border-bottom: 2px solid #52b8ff;
+  border-bottom: 2px solid #dbf1ff;
 }
 #services-section .services-container .box.red{
-  border-bottom: 2px solid #ff5253;
+  border-bottom: 2px solid #dbf1ff;
 }
 #services-section .services-container .box.yellow{
-  border-bottom: 2px solid #ffc853;
+  border-bottom: 2px solid #000000;
 }
 /* Tablets */
 @media only screen and (max-width: 960px){

@@ -1,5 +1,5 @@
 #top{
-
+background: #f9fafc;
 }
 #top .container{
   display: grid;
@@ -72,6 +72,7 @@
   margin: 0 auto;
   border: black 20px solid;
 }
+
 /* Tablets */
 @media only screen and (max-width: 960px){
   #top .container{

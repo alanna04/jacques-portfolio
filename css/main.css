@@ -23,6 +23,7 @@ header{
   display: flex;
   padding: 20px;
   justify-content: space-between;
+  background: #f9fafc;
 }
 header .logo{
   font-size: 1.5rem;

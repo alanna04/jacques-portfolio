@@ -58,14 +58,14 @@ get_header();
 
         <h1><?php echo $name; ?></h1>
         <div class="info">
-          <div class="buttons">
+          <!--<div class="buttons">
             <a href="<?php echo $project_url; ?>"><i class="fas fa-desktop"></i> View Project</a>
             <a href="<?php echo $github_url; ?>"><i class="fas fa-code"></i> View Code</a>
-          </div>
+          </div>-->
         </div>
         		<?php echo $description; ?>
 
-        <div class="technologies">
+        <!--<div class="technologies">
           <h3>Technologies</h3>
 
           <div class="icons">
@@ -82,7 +82,7 @@ get_header();
               <img src="<?php echo $tech_icon4; ?>">
             </div>
           </div>
-        </div>
+        </div> -->
         <div class="video">
           <h3>Video Walkthrough</h3>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/<?php echo $youtube_url; ?>" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
